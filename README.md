@@ -137,7 +137,7 @@ int main() {
 1. Napisz program, który oblicza średnią dla 5 ocen, oraz wyświetla, ile było ocen niedostatecznych.
 
 ***
-[Poprzednia część](https://github.com/CyberMALab/Operatory-arytmetyczne.git) | [Spis treści](https://github.com/CyberMALab/Wprowadzenie-do-programowania-w-j-zyku-ANSI-C.git) | [Następna część](https://github.com/CyberMALab/Comming-Soon.git)
+[Poprzednia część](https://github.com/CyberMALab/Operatory-arytmetyczne.git) | [Spis treści](https://github.com/CyberMALab/Wprowadzenie-do-programowania-w-j-zyku-ANSI-C.git) | [Następna część](https://github.com/CyberMALab/Petle.git)
 ***
 &copy; Cyberspace Modelling and Analysis Laboratory
 

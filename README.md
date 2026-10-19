@@ -1,12 +1,12 @@
 # Instrukcje warunkowe i operatory logiczne.
 ## Instrukcja warunkowa
-Instrukcja warunkowa jest elementem języka programowania, który pozwala wykonać różne instrukcje zależnie od warunku podanego wewnątrz funkcji.
+Instrukcja warunkowa pozwala wykonać różne instrukcje zależnie od warunku podanego w jej nawiasach.
 
 *Schemat (3.0) Instrukcja warunkowa*
 
 ![schemat 3 0](https://user-images.githubusercontent.com/71324202/139920911-2c98e385-d3ac-4569-9ae7-670a65c7edf7.png)
 
-W języku C instrukcja warunkowa występuje w postaci instrukcji if (jeżeli) oraz else (w przeciwnym przypadku). Aby użyć funkcji warunkowej if w języku C należy postępować według następującego schematu.
+W języku C do wyboru instrukcji służą `if` (jeżeli) oraz `else` (w przeciwnym przypadku). Aby użyć instrukcji warunkowej `if`, należy postępować według następującego schematu.
 
 ```
 if(warunek) { 
@@ -38,7 +38,7 @@ W języku C występują operatory relacji, które zostały zawarte zostały w po
 ### Operatory logiczne
 |Oznaczenie|Działanie|Przykład instrukcji z warunkiem|
 | :-: | :----- | :------ |
-|`&&`|Koniunkcja (AND)|```if(a==b && b<10) /* jeżeli a równe b i b mniejsze od 2 */ ```|
+|`&&`|Koniunkcja (AND)|```if(a==b && b<10) /* jeżeli a równe b i b mniejsze od 10 */ ```|
 |`\|\|`|Alternatywa (OR)|```if(a>b \|\| a<0) /* jeżeli a większe od b lub a mniejsze od 0 */``` |
 |`!`|Negacja (NOT)|```if(!(a<b)) /* jeżeli nie jest a mniejsze od b */ ```|
 
@@ -118,10 +118,11 @@ Wyrażenie trójargumentowe składa się z 3 wyrażeń, pierwsze wyrażenie to w
 #include <stdlib.h>
 
 int main() {
-	int a,b;
+	int a,b,c;
 	printf("Podaj dwie liczby: " );
 	scanf(" %d %d",&a,&b);
-	int c = (a>b) ? a : b ;
+	c = (a>b) ? a : b ;
+	printf("Wieksza liczba: %d\n", c);
 	return 0;
 }
 ``` 
@@ -132,8 +133,8 @@ int main() {
    1. większą
    1. mniejszą
    1. relację jaka występuje pomiędzy pierwszą a drugą (np. 3<4, 5=5, 5>1)
-1. Kalkulator, w którym użytkownik podaje 2 liczby, następnie podaje znak działania jakie chce wykonać (+, -, \*, /, %). Program wykonuje działanie i wyświetla wynik.
-1. Napisz program, który pobiera 2 liczby od użytkownika a następnie stwierdza czy pierwsza jest podzielna przez drugą.
+1. Kalkulator, w którym użytkownik podaje 2 liczby, następnie podaje znak działania jakie chce wykonać (+, -, \*, /, %). Program wykonuje działanie i wyświetla wynik. Pamiętaj o przypadku, gdy dzielnik jest równy zeru.
+1. Napisz program, który pobiera 2 liczby od użytkownika a następnie stwierdza czy pierwsza jest podzielna przez drugą. Pamiętaj o przypadku, gdy druga liczba jest równa zeru.
 1. Napisz program, który oblicza średnią dla 5 ocen, oraz wyświetla, ile było ocen niedostatecznych.
 
 ***

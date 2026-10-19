@@ -136,6 +136,7 @@ int main() {
 1. Kalkulator, w którym użytkownik podaje 2 liczby, następnie podaje znak działania jakie chce wykonać (+, -, \*, /, %). Program wykonuje działanie i wyświetla wynik. Pamiętaj o przypadku, gdy dzielnik jest równy zeru.
 1. Napisz program, który pobiera 2 liczby od użytkownika a następnie stwierdza czy pierwsza jest podzielna przez drugą. Pamiętaj o przypadku, gdy druga liczba jest równa zeru.
 1. Napisz program, który oblicza średnią dla 5 ocen, oraz wyświetla, ile było ocen niedostatecznych.
+1. Wczytaj liczbę całkowitą i wypisz, czy jest jednocześnie dodatnia i parzysta. Zastosuj `if`, `&&` oraz `%`.
 
 ***
 [Poprzednia część](https://github.com/CyberMALab/Operatory-arytmetyczne.git) | [Spis treści](https://github.com/CyberMALab/Wprowadzenie-do-programowania-w-j-zyku-ANSI-C.git) | [Następna część](https://github.com/CyberMALab/Petle.git)

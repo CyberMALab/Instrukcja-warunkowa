@@ -129,7 +129,7 @@ int main() {
 
 
 ## Zadania do samodzielnego wykonania:
-1. Stwórz program, który wczytuje od użytkownika 2 liczy całkowite i wyświetla:
+1. Utwórz program, który wczytuje od użytkownika 2 liczy całkowite i wyświetla:
    1. większą
    1. mniejszą
    1. relację jaka występuje pomiędzy pierwszą a drugą (np. 3<4, 5=5, 5>1)
